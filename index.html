@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- start Quiz -->
+     <div class="start_quiz_btn"><button class="start-btn" onclick="showRules()">Start Quiz</button></div>
+
+     <!-- Quiz rules -->
+      <div class="quiz_rules">
+        <h3>Some Rules of this  Quiz</h3>
+        <ol>
+            <li> You will have only <span>15 minutes</span> per each question.</li>
+            <li> Once you select your answer, it can't be undone.</li>
+            <li>You can't select any option once time goes off.</li>
+            <li>You can't exit from the Quiz while you re playing.</li>
+            <li>You will get points on the basis of your correct answers.</li>
+        </ol>
+            <div class="rules_btn">
+                <button onclick="exitQuiz()" class="btn-1">Exit Quiz</button>
+                <button onclick="Continue()" class="btn-2">Continue</button>
+            </div>                   
+      </div>
+
+      <!-- Questions section -->
+       <div class="question_section">
+        <div class="head">
+            <div class="head_name">
+                <h2>Yusfit Quiz Application</h2>
+            </div>
+            <div class="time_count">
+                <p>Time Left <span>15</span></p>
+            </div>
+        </div>
+        <div class="Q1">
+            <h2>1. What does HTML mean?</h2>
+            <ul>
+                <li>hypertext processor</li>
+                <li>hypertext processor</li>
+                <li>hypertext processor</li>
+                <li>hypertext processor</li>
+            </ul>
+        </div>
+        <div class="head_down">
+            <div class="q_count">
+                <p>1 0f 5 Questions</p>
+            </div>
+            <div class="next_btn">
+                <button>Next Que</button>
+            </div>
+        </div>
+       </div>
+
+
+
+
+      <script src="script.js"></script>
+    
+</body>
+</html>

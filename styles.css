@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+
+.start_quiz,
+.quiz_rules,
+.question_section{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* START QUIZ STYLES */
+.start_quiz_btn{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.start_quiz_btn button{
+    padding: 15px;
+    background: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border: 1.5px solid orange;
+    border-radius: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    transition: all .3s ease-in-out;
+}
+
+.start_quiz_btn button:hover{
+    transform: scale(.25rem);
+    background: orange;
+    color: black;
+}
+
+/* QUIZ RULES STYLES */
+
+.quiz_rules{
+    background: orange;
+    width: 400px;
+    border-radius: 10px;
+    line-height: 2rem;
+    font-size: 14px;
+    display: none;
+}
+
+.quiz_rules h3{
+    border-bottom: 1px solid black;
+    padding-left: 20px;
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+.quiz_rules ol{
+    margin: 10px 10px 10px 30px;
+    font-weight: 600
+}
+
+.quiz_rules .rules_btn{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    left: 14rem;
+    padding-bottom: 10px;
+}
+
+.rules_btn button{
+    padding: 12px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 11px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.rules_btn .btn-2{
+    background: black;
+    color: white;
+}
+
+.rules_btn .btn-2:hover{
+    background: rgba(0, 0, 0, 0.836);
+}
+
+.rules_btn .btn-1{
+    background: rgb(195, 129, 8);
+    border: 1.5px solid black;
+}
+
+.rules_btn .btn-1:hover{
+    background: black;
+    color: white;
+}
+
+/* QUESTIONS SECTION */
+
+.question_section{
+    background: orange;
+    width: 400px;
+    line-height: 2rem;
+    border-radius: 4px;
+    display: none;
+}
+
+.head{
+    display: flex;
+    gap: 40px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.527);
+    padding-top: 10px;
+    padding-bottom: 7px;
+}
+
+.head_name h2{
+    font-size: 20px;
+    font-size: 700;
+    padding-left: 20px;
+}
+
+.time_count p{
+    background: rgb(126, 84, 8);
+    padding: 2px 10px 2px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+
+.time_count p span{
+    background: black;
+    color: white;
+    padding: 5px 9px;
+    border-radius: 3px;
+    margin-right: -5px;
+
+}
+
+.Q1{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.Q1 ul{
+    list-style: none;
+}
+
+.Q1 ul li{
+    background: rgba(111, 88, 4, 0.895);
+    margin-top: 5px;
+    color: white;
+    padding: 5px 0 5px 12px;
+    width: 95%;
+    border: 1.5px solid rgb(75, 51, 1) ;
+    cursor: pointer;
+}
+
+.head_down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.head_down .q_count p{
+    font-weight: 600;
+    position: relative;
+    left: 20px;
+}
+
+.head_down .next_btn button{
+    position: relative;
+    right: 20px;
+    padding: 5px 7px ;
+    font-size: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .3s ease;
+    margin-bottom: 6px;
+}
+
+.head_down .next_btn button:hover{
+    background: rgba(0, 0, 0, 0.838);
+}
+
