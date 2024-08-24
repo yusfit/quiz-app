@@ -6,11 +6,13 @@
 
 body{
     background: black;
+    font-family: "Lato", system-ui;
 }
 
 .start_quiz,
 .quiz_rules,
-.question_section{
+.question_section,
+.result_box{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -150,18 +152,31 @@ body{
     padding-bottom: 15px;
 }
 
-.Q1 ul{
-    list-style: none;
+.q1_text h2{
+    font-size: 17px;
 }
 
-.Q1 ul li{
+.options_menu .options{
     background: rgba(111, 88, 4, 0.895);
+    display: flex;
     margin-top: 5px;
     color: white;
-    padding: 5px 0 5px 12px;
+    padding: 5px 0px 5px 12px;
     width: 95%;
     border: 1.5px solid rgb(75, 51, 1) ;
     cursor: pointer;
+}
+
+.options_menu .options.correct{
+    background: green;
+    border-color: brown;
+
+}
+
+.options_menu .options.incorrect{
+    background: red;
+    border-color: black;
+
 }
 
 .head_down{
@@ -169,7 +184,9 @@ body{
     justify-content: space-between;
 }
 
-.head_down .q_count p{
+.head_down .q_count span{
+    display: flex;
+    gap: 8px;
     font-weight: 600;
     position: relative;
     left: 20px;
@@ -194,3 +211,57 @@ body{
     background: rgba(0, 0, 0, 0.838);
 }
 
+.result_box{
+    background: orange;
+    width: 300px;
+    padding: 50px 0px;
+    border-radius: 4px;
+    display: none;
+}
+
+.complete p{
+    text-align: center;
+    font-weight: 600;
+}
+
+.end_btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.quit button{
+    padding: 5px 7px ;
+    font-size: 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .3s ease;
+}
+
+.replay button{
+    padding: 5px 7px ;
+    font-size: 12px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .3s ease;
+    background: rgb(195, 129, 8);
+    border: 1.5px solid black;
+}
+
+.replay button:hover{
+    background: black;
+    color: white;
+}
+
+.quit button:hover{
+    background: rgba(0, 0, 0, 0.838);
+}
