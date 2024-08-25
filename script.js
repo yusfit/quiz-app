@@ -1,5 +1,5 @@
 function showRules(){
-    const removeStart = document.querySelector('.start_btn');
+    const removeStart = document.querySelector('.start_quiz_btn');
     const showRules = document.querySelector('.quiz_rules'); 
     showRules.style.display = 'block'
     removeStart.style.display = 'none'

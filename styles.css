@@ -9,21 +9,29 @@ body{
     font-family: "Lato", system-ui;
 }
 
-.start_quiz,
-.quiz_rules,
+
+/* .quiz_rules,
 .question_section,
 .result_box{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 /* START QUIZ STYLES */
+
 .start_quiz_btn{
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
 }
 
 .start_quiz_btn button{
