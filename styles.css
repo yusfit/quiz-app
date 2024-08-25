@@ -287,13 +287,14 @@ body{
 
 @media only screen and (max-width:376px){
     .quiz_rules{
-        display: flex;
+        /* display: flex;
         align-items: center;
-        justify-content: center;
-        width: 700px;
+        justify-content: center; */
+        width: 400px;
         /* margin-left: 16px; */
         position: relative;
-        left: 2rem;
+        left: 1rem;
+        display: none;
     }
 
     .quiz_rules .rules_btn{
@@ -324,12 +325,13 @@ body{
 
 @media only screen and (max-width:426px){
     .quiz_rules{
-        display: flex;
+        /* display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: center; */
         width: 400px;
         /* margin-left: 16px; */
         position: relative;
-        left: 2.8rem;
+        left: 1rem;
+        display: none;
     } 
 }
