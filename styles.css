@@ -312,6 +312,7 @@ body{
     .quiz_rules .rules_btn{
         display: flex;
         gap: 10px;
+        left: 8rem;
         padding-bottom: 10px;
     }
     .quiz_rules ol{
