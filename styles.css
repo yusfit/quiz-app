@@ -5,7 +5,7 @@
 }
 
 body{
-    background: black;
+    background: purple;
     font-family: "Lato", system-ui;
     overflow: hidden;
 }
@@ -42,14 +42,14 @@ body{
 
 .start_quiz_btn button:hover{
     transform: scale(.25rem);
-    background: orange;
-    color: black;
+    background: white;
+    color: purple;
 }
 
 /* QUIZ RULES STYLES */
 
 .quiz_rules{
-    background: orange;
+    background: white;
     width: 400px;
     max-width: 100%;
     margin: 0 auto;
@@ -57,6 +57,7 @@ body{
     line-height: 2rem;
     font-size: 14px;
     display: none;
+    color: purple;
 }
 
 .quiz_rules h3{
@@ -82,7 +83,7 @@ body{
 .rules_btn button{
     padding: 12px;
     border-radius: 5px;
-    border: none;
+    border: 1px solid purple;
     outline: none;
     font-size: 11px;
     font-weight: 600;
@@ -91,34 +92,36 @@ body{
 }
 
 .rules_btn .btn-2{
-    background: black;
-    color: white;
+    background: white;
+    color: purple;
 }
 
 .rules_btn .btn-2:hover{
-    background: rgba(0, 0, 0, 0.836);
+    background: white;
+    color: purple;
 }
 
 .rules_btn .btn-1{
-    background: rgb(195, 129, 8);
-    border: 1.5px solid black;
+    background: purple;
+    border: 1.5px solid purple;
 }
 
 .rules_btn .btn-1:hover{
-    background: black;
-    color: white;
+    background: white;
+    color: purple;
 }
 
 /* QUESTIONS SECTION */
 
 .question_section{
-    background: orange;
+    background: white;
     width: 400px;
     max-width: 100%;
     margin: 0 auto;
     line-height: 2rem;
     border-radius: 4px;
     display: none;
+    color: purple;
 }
 
 .head{
@@ -136,16 +139,17 @@ body{
 }
 
 .time_count {
-    background: rgb(126, 84, 8);
+    background: white;
     padding: 2px 10px 2px 10px;
     border-radius: 3px;
     font-weight: 600;
     display: flex;
     gap: 10px;
+    purple 
 }
 
 .time_count .timer{
-    background: black;
+    background: purple;
     color: white;
     padding: 0px 9px;
     border-radius: 3px;
@@ -204,30 +208,7 @@ body{
     left: 20px;
 }
 
-.ctrl_btn{
-    gap: 10px;
-}
-
-.head_down .crtl_btn .prv_btn .prv_btn{
-    position: relative;
-    right: 20px;
-    padding: 7px 9px ;
-    font-size: 13px;
-    border: none;
-    background-color: black;
-    color: white;
-    font-weight: 600;
-    cursor: pointer;
-    border-radius: 2px;
-    transition: all .3s ease;
-}
-
-.prv_btn .prv_btn:hover{
-    background: rgba(0, 0, 0, 0.838);
-}
-
-
-.head_down .crtl_btn .next_btn .nxt_btn{
+.head_down .next_btn .nxt_btn{
     position: relative;
     right: 20px;
     padding: 7px 9px ;
@@ -247,11 +228,12 @@ body{
 }
 
 .result_box{
-    background: orange;
+    background: white;
     width: 300px;
     padding: 50px 0px;
     border-radius: 4px;
     display: none;
+    color: purple;
 }
 
 .complete p{
@@ -271,7 +253,7 @@ body{
     padding: 5px 7px ;
     font-size: 12px;
     border: none;
-    background-color: black;
+    background-color: purple;
     color: white;
     font-weight: 600;
     cursor: pointer;
@@ -288,17 +270,18 @@ body{
     cursor: pointer;
     border-radius: 2px;
     transition: all .3s ease;
-    background: rgb(195, 129, 8);
-    border: 1.5px solid black;
+    background: purple;
+    border: 1.5px solid purple;
 }
 
 .replay button:hover{
-    background: black;
-    color: white;
+    background: white;
+    color: purple;
 }
 
 .quit button:hover{
-    background: rgba(0, 0, 0, 0.838);
+    background: white;
+    color: purple;
 }
 
 @media only screen and (max-width:768px){
