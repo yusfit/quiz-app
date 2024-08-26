@@ -279,9 +279,8 @@ body{
     body{
         overflow: hidden;
     }
-    .quiz_rules{
-        width: 300px;
-        /* margin-left: 16px; */
+    /*.quiz_rules{
+        width: 400px;
         position: relative;
         left: 4rem;
         display: none;
@@ -291,7 +290,7 @@ body{
         display: flex;
         gap: 10px;
         padding-bottom: 10px;
-    }
+    }*/
 
     .quiz_rules .rules p{
         font-size: 12px;
@@ -308,12 +307,12 @@ body{
     body{
         overflow: hidden;
         }
-    .quiz_rules .rules_btn{
+   /* .quiz_rules .rules_btn{
         display: flex;
         gap: 10px;
         left: 8rem;
         padding-bottom: 10px;
-    }
+    } */
     .quiz_rules .rules p{
         font-size: 10px;
     }
@@ -329,13 +328,12 @@ body{
     body{
         overflow: hidden;
     }
-    .quiz_rules{
+    /*.quiz_rules{
         width: 300px;
-        /* margin-left: 16px; */
         position: relative;
         left: 1rem;
         display: none;
-    } 
+    } */
     .head_name h2{
         font-size: 20px;
     }
