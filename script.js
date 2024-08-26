@@ -1,15 +1,15 @@
 function showRules(){
-    const removeStart = document.querySelector('.start_quiz_btn');
+  /*  const removeStart = document.querySelector('.start_quiz_btn');*/
     const showRules = document.querySelector('.quiz_rules'); 
     showRules.style.display = 'block'
-    removeStart.style.display = 'none'
+    /*removeStart.style.display = 'none'*/
 }
 
 function exitQuiz(){
-    const showStart = document.querySelector('.start_quiz_btn');
+   /* const showStart = document.querySelector('.start_quiz_btn');*/
     const quizRules = document.querySelector('.quiz_rules');
     quizRules.style.display = 'none'
-    showStart.style.display = 'block'
+    /*showStart.style.display = 'block'*/
 }
 
 function Continue(){
