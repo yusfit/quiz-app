@@ -318,5 +318,9 @@ body{
     .quiz_rules .rules p{
         font-size: 10px;
     }
+    .quiz_rules{
+        margin-left: 10px;
+        margin-right: 10px;        
+    }
         
 }
