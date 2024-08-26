@@ -178,17 +178,20 @@ body{
     width: 95%;
     border: 1.5px solid purple;
     cursor: pointer;
+    border-radius: 4px;
 }
 
 .options_menu .options.correct{
     background: green;
-    border-color: brown;
+    border-color: white;
+    border-radius: 4px;
 
 }
 
 .options_menu .options.incorrect{
     background: red;
-    border-color: black;
+    border-color: white;
+    border-radius: 4px;
 
 }
 
