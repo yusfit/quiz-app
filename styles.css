@@ -281,7 +281,7 @@ body{
         overflow: hidden;
     }
     .quiz_rules{
-        width: 400px;
+        width: 300px;
         /* margin-left: 16px; */
         position: relative;
         left: 1rem;
@@ -299,6 +299,12 @@ body{
     .quiz_rules ol{
         font-size: 12px;
     }
+    .head_name h2{
+        font-size: 16px;
+    }
+    .time_count .timer{
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width:344px){
@@ -315,6 +321,12 @@ body{
     .quiz_rules ol{
         font-size: 10px;
     }
+    .head_name h2{
+        font-size: 16px;
+    }
+    .time_count .timer{
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width:426px){
@@ -322,15 +334,24 @@ body{
         overflow: hidden;
     }
     .quiz_rules{
-        width: 400px;
+        width: 300px;
         /* margin-left: 16px; */
         position: relative;
         left: 1rem;
         display: none;
     } 
+    .head_name h2{
+        font-size: 16px;
+    }
+    .time_count .timer{
+        font-size: 14px;
+    }
 }
 
 @media only screen and (max-width:768px){
+    body{
+        overflow: hidden;
+    }
     .question_section{
         margin-left: 10px;
         margin-right: 10px;        
