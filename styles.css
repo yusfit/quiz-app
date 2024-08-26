@@ -204,8 +204,30 @@ body{
     left: 20px;
 }
 
+.ctrl_btn{
+    display: flex;
+    gap: 20px;
+}
+
+.prv_btn .prv_btn{
+    padding: 7px 9px ;
+    font-size: 13px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: all .3s ease;
+    margin-bottom: 6px;
+}
+.prv_btn .prv_btn:hover{
+    background: rgba(0, 0, 0, 0.838);
+}
+
+
 .head_down .next_btn .nxt_btn{
-    display: none;
+    /*display: none;*/
     position: relative;
     right: 20px;
     padding: 7px 9px ;
