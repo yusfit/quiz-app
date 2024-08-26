@@ -1,8 +1,8 @@
 function showRules(){
-  /*  const removeStart = document.querySelector('.start_quiz_btn');*/
+    const removeStart = document.querySelector('.start_quiz_btn');
     const showRules = document.querySelector('.quiz_rules'); 
     showRules.style.display = 'block'
-    /*removeStart.style.display = 'none'*/
+    removeStart.style.display = 'none'
 }
 
 function exitQuiz(){
@@ -54,7 +54,7 @@ nextBtn.onclick = ()=>{
         queCounter(que_number);
         clearInterval(counter);
         startTimer(timeValue);
-        nextBtn.style.display = 'none';
+        /*nextBtn.style.display = 'none';*/
         timeOff.textContent = 'time Left';
     }else{
         clearInterval(counter);
@@ -109,7 +109,7 @@ function optionSelected(correct){
         options.children[i].classList.add("disabled");
     
    }
-   nextBtn.style.display = 'block';
+   /*nextBtn.style.display = 'block';*/
 }
 
 function queCounter(index){
