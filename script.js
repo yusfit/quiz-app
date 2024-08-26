@@ -28,6 +28,7 @@ const quizRestart = document.querySelector('.replay');
 const quizQuit = resultBox.querySelector('.quit_quiz');
 const scoreText = resultBox.querySelector('.score');
 const timeOff = document.querySelector('.time_count p');
+const prvBtn = document.querySelector('.prv_btn');
 
 
 quizRestart.onclick = () =>{
@@ -45,6 +46,23 @@ let timeValue = 15;
 let userScore = 0;
 
 
+prvBtn.onclick = () =>{
+      if(que_count < questions.length - 1){
+        que_count--;
+        que_number--;
+        showQuestions(que_count);
+        queCounter(que_number);
+        clearInterval(counter);
+        startTimer(timeValue);
+        /*nextBtn.style.display = 'none';*/
+        timeOff.textContent = 'time Left';
+    }else{
+        clearInterval(counter);
+    
+        console.log("Questions completed");
+        showResultBox();
+      }
+}
 
 nextBtn.onclick = ()=>{
     if(que_count < questions.length - 1){
