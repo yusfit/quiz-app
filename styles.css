@@ -51,7 +51,7 @@ body{
 .quiz_rules{
     background: orange;
     width: 400px;
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     border-radius: 10px;
     line-height: 2rem;
@@ -114,7 +114,7 @@ body{
 .question_section{
     background: orange;
     width: 400px;
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     line-height: 2rem;
     border-radius: 4px;
@@ -279,73 +279,6 @@ body{
     background: rgba(0, 0, 0, 0.838);
 }
 
-@media only screen and (max-width:376px){
-    body{
-        overflow: hidden;
-    }
-    /*.quiz_rules{
-        width: 400px;
-        position: relative;
-        left: 4rem;
-        display: none;
-    }
-
-    .quiz_rules .rules_btn{
-        display: flex;
-        gap: 10px;
-        padding-bottom: 10px;
-    }*/
-
-    .quiz_rules .rules p{
-        font-size: 12px;
-    }
-    .head_name h2{
-        font-size: 20px;
-    }
-    .time_count .p{
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width:344px){
-    body{
-        overflow: hidden;
-        }
-   /* .quiz_rules .rules_btn{
-        display: flex;
-        gap: 10px;
-        left: 8rem;
-        padding-bottom: 10px;
-    } */
-    .quiz_rules .rules p{
-        font-size: 10px;
-    }
-    .head_name h2{
-        font-size: 20px;
-    }
-    .time_count p{
-        font-size: 12px;
-    }
-}
-
-@media only screen and (max-width:426px){
-    body{
-        overflow: hidden;
-    }
-    /*.quiz_rules{
-        width: 300px;
-        position: relative;
-        left: 1rem;
-        display: none;
-    } */
-    .head_name h2{
-        font-size: 20px;
-    }
-    .time_count p{
-        font-size: 12px;
-    }
-}
-
 @media only screen and (max-width:768px){
     body{
         overflow: hidden;
@@ -359,6 +292,9 @@ body{
     }
     .time_count p{
         font-size: 12px;
+    }
+    .quiz_rules .rules p{
+        font-size: 10px;
     }
         
 }
