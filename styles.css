@@ -51,6 +51,8 @@ body{
 .quiz_rules{
     background: orange;
     width: 400px;
+    max-width: 90%;
+    margin: 0 auto;
     border-radius: 10px;
     line-height: 2rem;
     font-size: 14px;
@@ -112,6 +114,8 @@ body{
 .question_section{
     background: orange;
     width: 400px;
+    max-width: 90%;
+    margin: 0 auto;
     line-height: 2rem;
     border-radius: 4px;
     display: none;
