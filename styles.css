@@ -300,10 +300,10 @@ body{
         font-size: 12px;
     }
     .head_name h2{
-        font-size: 14px;
+        font-size: 12px;
     }
     .time_count .timer{
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
@@ -315,17 +315,17 @@ body{
         display: flex;
         gap: 10px;
         position: relative;
-        left: 7rem;
+        left: 12rem;
         padding-bottom: 10px;
     }
     .quiz_rules ol{
         font-size: 10px;
     }
     .head_name h2{
-        font-size: 14px;
+        font-size: 12px;
     }
     .time_count .timer{
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
@@ -341,10 +341,10 @@ body{
         display: none;
     } 
     .head_name h2{
-        font-size: 14px;
+        font-size: 12px;
     }
     .time_count .timer{
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
@@ -357,10 +357,10 @@ body{
         margin-right: 10px;        
     }
     .head_name h2{
-        font-size: 14px;
+        font-size: 12px;
     }
     .time_count .timer{
-        font-size: 10px;
+        font-size: 9px;
     }
         
 }
