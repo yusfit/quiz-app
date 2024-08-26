@@ -284,7 +284,7 @@ body{
         width: 300px;
         /* margin-left: 16px; */
         position: relative;
-        left: 3rem;
+        left: 4rem;
         display: none;
     }
 
@@ -357,6 +357,12 @@ body{
     }
     .time_count p{
         font-size: 12px;
+    }
+
+    quiz_rules{
+        position: relative;
+        left: 4rem;
+        display: none;
     }
         
 }
