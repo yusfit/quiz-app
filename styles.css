@@ -292,7 +292,7 @@ body{
         display: flex;
         gap: 10px;
         position: relative;
-        left: 12rem;
+        left: 4rem;
         padding-bottom: 10px;
     }
 
@@ -300,10 +300,10 @@ body{
         font-size: 12px;
     }
     .head_name h2{
-        font-size: 12px;
+        font-size: 18px;
     }
     .time_count .timer{
-        font-size: 9px;
+        font-size: 12px;
     }
 }
 
@@ -322,10 +322,10 @@ body{
         font-size: 10px;
     }
     .head_name h2{
-        font-size: 12px;
+        font-size: 18px;
     }
     .time_count .timer{
-        font-size: 9px;
+        font-size: 12px;
     }
 }
 
@@ -341,10 +341,10 @@ body{
         display: none;
     } 
     .head_name h2{
-        font-size: 12px;
+        font-size: 18px;
     }
     .time_count .timer{
-        font-size: 9px;
+        font-size: 12px;
     }
 }
 
@@ -357,10 +357,10 @@ body{
         margin-right: 10px;        
     }
     .head_name h2{
-        font-size: 12px;
+        font-size: 18px;
     }
-    .time_count .timer{
-        font-size: 9px;
+    .time_count p{
+        font-size: 12px;
     }
         
 }
