@@ -104,6 +104,7 @@ body{
 .rules_btn .btn-1{
     background: purple;
     border: 1.5px solid purple;
+    color: white;
 }
 
 .rules_btn .btn-1:hover{
@@ -172,7 +173,7 @@ body{
     background: white;
     display: flex;
     margin-top: 5px;
-    color: white;
+    color: purple;
     padding: 5px 0px 5px 12px;
     width: 95%;
     border: 1.5px solid purple;
