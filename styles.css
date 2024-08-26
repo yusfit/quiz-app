@@ -223,12 +223,6 @@ body{
     transition: all .3s ease;
     margin-bottom: 6px;
 }
-
-.head_down .next_btn button:hover{
-    background: white;
-    color: purple;
-}
-
 .result_box{
     background: white;
     width: 300px;
