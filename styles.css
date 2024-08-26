@@ -32,7 +32,7 @@ body{
     border: none;
     outline: none;
     cursor: pointer;
-    border: 1.5px solid orange;
+    border: 1.5px solid white;
     border-radius: 10px;
     color: white;
     font-size: 12px;
@@ -145,7 +145,7 @@ body{
     font-weight: 600;
     display: flex;
     gap: 10px;
-    purple 
+    border: 1.5px solid purple;
 }
 
 .time_count .timer{
@@ -169,13 +169,13 @@ body{
 }
 
 .options_menu .options{
-    background: rgba(111, 88, 4, 0.895);
+    background: white;
     display: flex;
     margin-top: 5px;
     color: white;
     padding: 5px 0px 5px 12px;
     width: 95%;
-    border: 1.5px solid rgb(75, 51, 1) ;
+    border: 1.5px solid purple;
     cursor: pointer;
 }
 
@@ -214,7 +214,7 @@ body{
     padding: 7px 9px ;
     font-size: 13px;
     border: none;
-    background-color: black;
+    background-color: purple;
     color: white;
     font-weight: 600;
     cursor: pointer;
@@ -224,7 +224,8 @@ body{
 }
 
 .head_down .next_btn button:hover{
-    background: rgba(0, 0, 0, 0.838);
+    background: white;
+    color: purple;
 }
 
 .result_box{
