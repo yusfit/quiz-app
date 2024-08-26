@@ -5,7 +5,7 @@
 }
 
 body{
-    background: black;
+    background: grey;
     font-family: "Lato", system-ui;
     overflow: hidden;
 }
@@ -64,7 +64,7 @@ body{
     font-weight: 700;
 }
 
-.quiz_rules div p{
+.quiz_rules .rules p{
     margin: 10px 10px 10px 30px;
     font-weight: 600
 }
@@ -293,7 +293,7 @@ body{
         padding-bottom: 10px;
     }
 
-    .quiz_rules ol{
+    .quiz_rules .rules p{
         font-size: 12px;
     }
     .head_name h2{
@@ -314,7 +314,7 @@ body{
         left: 8rem;
         padding-bottom: 10px;
     }
-    .quiz_rules ol{
+    .quiz_rules .rules p{
         font-size: 10px;
     }
     .head_name h2{
@@ -357,12 +357,6 @@ body{
     }
     .time_count p{
         font-size: 12px;
-    }
-
-    quiz_rules{
-        position: relative;
-        left: 4rem;
-        display: none;
     }
         
 }
