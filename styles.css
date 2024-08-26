@@ -284,15 +284,13 @@ body{
         width: 300px;
         /* margin-left: 16px; */
         position: relative;
-        left: 1rem;
+        left: 3rem;
         display: none;
     }
 
     .quiz_rules .rules_btn{
         display: flex;
         gap: 10px;
-        position: relative;
-        left: 4rem;
         padding-bottom: 10px;
     }
 
