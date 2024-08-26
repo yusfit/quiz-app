@@ -315,7 +315,7 @@ body{
         display: flex;
         gap: 10px;
         position: relative;
-        left: 12rem;
+        left: 9rem;
         padding-bottom: 10px;
     }
     .quiz_rules ol{
