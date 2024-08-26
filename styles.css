@@ -49,7 +49,6 @@ body{
 /* QUIZ RULES STYLES */
 
 .quiz_rules{
-    align-items: center;
     background: orange;
     width: 400px;
     border-radius: 10px;
@@ -65,7 +64,7 @@ body{
     font-weight: 700;
 }
 
-.quiz_rules ol{
+.quiz_rules div p{
     margin: 10px 10px 10px 30px;
     font-weight: 600
 }
