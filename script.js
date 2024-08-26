@@ -109,7 +109,7 @@ function optionSelected(correct){
         options.children[i].classList.add("disabled");
     
    }
-   /*nextBtn.style.display = 'block';*/
+   nextBtn.style.display = 'block';
 }
 
 function queCounter(index){
