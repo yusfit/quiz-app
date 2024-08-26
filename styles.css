@@ -314,8 +314,6 @@ body{
     .quiz_rules .rules_btn{
         display: flex;
         gap: 10px;
-        position: relative;
-        left: 9rem;
         padding-bottom: 10px;
     }
     .quiz_rules ol{
