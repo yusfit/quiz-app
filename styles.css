@@ -7,7 +7,7 @@
 body{
     background: black;
     font-family: "Lato", system-ui;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .container{
@@ -277,6 +277,9 @@ body{
 }
 
 @media only screen and (max-width:376px){
+    body{
+        overflow: hidden;
+    }
     .quiz_rules{
         width: 400px;
         /* margin-left: 16px; */
@@ -299,6 +302,9 @@ body{
 }
 
 @media only screen and (max-width:344px){
+    body{
+        overflow: hidden;
+        }
     .quiz_rules .rules_btn{
         display: flex;
         gap: 10px;
@@ -313,7 +319,7 @@ body{
 
 @media only screen and (max-width:426px){
     body{
-        overflow-x: hidden;
+        overflow: hidden;
     }
     .quiz_rules{
         width: 400px;
@@ -322,4 +328,18 @@ body{
         left: 1rem;
         display: none;
     } 
+}
+
+@media only screen and (max-width:768px){
+    .question_section{
+        margin-left: 10px;
+        margin-right: 10px;        
+    }
+    .head_name h2{
+        font-size: 16px;
+    }
+    .time_count .timer{
+        font-size: 14px;
+    }
+        
 }
