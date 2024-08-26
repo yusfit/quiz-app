@@ -6,10 +6,7 @@ function showRules(){
 }
 
 function exitQuiz(){
-   /* const showStart = document.querySelector('.start_quiz_btn');*/
-    const quizRules = document.querySelector('.quiz_rules');
-    quizRules.style.display = 'none'
-    /*showStart.style.display = 'block'*/
+    window.location.reload();
 }
 
 function Continue(){
